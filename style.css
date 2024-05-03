@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+.warbed{
+    background: url(Gaddafi_africarebirth.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbr{
+    height: auto;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+
+}
+.logo{
+    height: 10;
+    width: 10%;
+    padding: 10px 100px;
+    
+}
+.navbr ul{
+    float: right;
+    margin-right: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+.navbr ul il {
+    list-style: none;
+    margin: 0 29px;
+    display: inline-block;
+    line-height: 110px;
+}
+.navbr ul il a{
+    text-decoration: solid;
+    color:gold;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 1s;
+
+}
+.navbr ul il a .active,
+.navbr ul il a:hover{
+    background: goldenrod;
+    border-radius: 2px;
+}
+.center{
+    position:  absolute;
+    top: 40%;
+    right: 0%;
+    margin: 10px;
+    transform: translate(-50%,-50%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+
+}
+
+
